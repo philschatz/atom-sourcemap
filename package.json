@@ -1,0 +1,27 @@
+{
+  "name": "sourcemap",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Sourcemap Viewer for Atom",
+  "keywords": [
+    "sourcemap",
+    "preview"
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "sourcemap-view:toggle"
+    ]
+  },
+  "repository": "https://github.com/philschatz/atom-sourcemap",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "dependencies": {
+    "source-map": "^0.5.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "less": "^2.7.3"
+  }
+}
